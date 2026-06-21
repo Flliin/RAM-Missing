@@ -1,4 +1,4 @@
-# RAM-Missing-MICCAI2026
+# RAM-Missing
 
 This repository will host the official implementation of **RAM-Missing: Retrieval-Augmented Missing-Aware Fusion for Robust Lung Cancer Subtyping**.
 
