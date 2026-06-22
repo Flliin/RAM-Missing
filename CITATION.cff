@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the MICCAI 2026 paper."
+title: "RAM-Missing: Retrieval-Augmented Missing-Aware Fusion for Robust Lung Cancer Subtyping"
+type: software
+authors:
+  - family-names: Li
+    given-names: Fulin
+  - family-names: Cai
+    given-names: Qing
+  - family-names: Zhang
+    given-names: Shugang
+  - family-names: Li
+    given-names: Jinxing
+year: 2026

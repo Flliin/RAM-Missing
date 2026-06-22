@@ -1,0 +1,24 @@
+seed: 42
+device: cuda:0
+models:
+  - ram_missing
+model:
+  hidden_dim: 256
+  num_heads: 4
+  dropout: 0.3
+  top_k: 5
+  retrieval_temperature: 0.1
+  gate_temperature: 1.0
+training:
+  epochs: 100
+  patience: 10
+  batch_size: 32
+  learning_rate: 0.0001
+  weight_decay: 0.001
+  proxy_weight: 0.5
+  num_workers: 0
+evaluation:
+  paper_full_prevalence: 0.246
+  paper_missing_prevalence: 0.754
+  missing_ratios: [0.0, 0.5, 0.7, 0.84, 0.9]
+  missing_ratio_models: [ram_missing]

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+artifacts/
+outputs/
+results/
+
+# Raw or derived medical data and large model artifacts
+data/
+*.svs
+*.dcm
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt

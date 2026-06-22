@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ram-missing"
+version = "0.1.0.dev0"
+description = "Retrieval-augmented missing-aware multimodal fusion"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<2.0",
+  "pandas>=2.3,<3.0",
+  "pyyaml>=6.0",
+  "scikit-learn>=1.6,<1.7",
+  "scipy>=1.13,<1.14",
+  "tabulate>=0.9",
+  "torch>=2.6,<2.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
