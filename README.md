@@ -28,4 +28,4 @@ python scripts/run_cv.py \
   --output-dir outputs/ram_missing
 ```
 
-Data, checkpoints, and experiment results are not included.
+
